@@ -1,0 +1,457 @@
+@charset "utf-8";
+
+.yy_t_h .yy_logo h1{
+	height: 130px;
+	width: 158px;
+	
+	float: left;
+	text-indent: -9999px;
+	background:url(../images/logo.png) no-repeat left;
+}
+.yy_t_h .search{
+	position: absolute;
+	top: 34px;
+	right: 164px;
+}
+.yy_t_h .search input{
+	border:2px solid #308e00;
+	height: 36px;
+	width: 450px;
+	vertical-align: top;
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-indent: 8px;
+}
+.yy_t_h .search button{
+	height: 40px;
+	width: 82px;
+	font-size: 16px;
+	background-color: #308e00;
+	color: #fff;
+	cursor:pointer; 
+}
+.search .hotwords {
+	color: #666;
+	height: 12px;
+	width: 535px;
+	line-height: 12px;
+}
+
+.search .hotwords li{
+	display: inline-block;
+	float: left;
+
+}
+.search .hotwords li{
+	padding: 0 8px;
+	border-right: 1px dashed #a9a9a9;
+
+}
+.search .hotwords ul li:first-child{
+	font-weight: bold;
+}
+.search .hotwords ul li:last-child,
+.mainnav ul li:last-child a,
+.mainnav ul li:first-child a{
+	border-style: none;
+}
+.hotwords .colors{
+	color: #308f00;
+}
+.hotwords ul li:hover a{
+	color: #308f00;
+}
+
+
+/*购物车部分*/
+.yy_t_h .car{
+	width: 148px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	border: 1px solid #d8d8d8;
+	position: absolute;
+	top:34px;
+	right: 0;
+}
+
+.car .car_icon1{
+	display: inline-block;
+	width: 14px;
+	height: 38px;
+	vertical-align: bottom;
+	background:url(../images/top-car.png) no-repeat left;
+}
+.car .car_icon2{
+	display: inline-block;
+	width: 20px;
+	height: 38px;
+	vertical-align: bottom;
+	background:url(../images/top-car1.png) no-repeat;
+}
+.car strong{
+	color: #fff;
+	width: 20px;
+	height: 38px;
+	position: relative;
+	top:-13px;
+	right:16px;
+}
+
+
+
+/*页面头部导航区域*/
+.mainnav ul li{
+	display: inline-block;
+}
+.mainnav ul li a{
+	padding: 0 24px;
+	border-right: 1px dashed #a9a9a9;
+}
+.mainnav ul li:first-child{
+	padding: 0;
+	width: 200px;
+	text-align: center;
+	background: #308e00 url(../images/menu_icon1.png) no-repeat 35px;
+}
+.mainnav .menu a{
+	width: 16px;
+	height: 34px;
+	color: #fff;
+	font-weight:normal;
+}
+.mainnav ul a:hover,.mainnav ul .selected{
+	color: #308e00;
+}
+.mainnav ul li:first-child a:hover{
+	color:#fe6574;
+}
+
+/*广告区域*/
+ .yy-ad .aside .menu_list:last-child{
+ 	border-style: none;
+ }
+.yy-ad .aside h3{
+	height: 25px;
+	display: table-caption;
+	color: #e7e7e7;
+	font-size: 14px;
+	text-indent:28px;
+	padding-top: 15px;
+	/*text-indent: 5px;*/
+}
+.yy-ad .aside .rows{
+	display: table-row;
+
+}
+
+.yy-ad .aside .cell{
+	display: table-cell;
+	width: 48px;
+	text-align: center;
+	
+}
+
+
+/*小图标*/
+
+.yy-ad .aside  #m_name1{
+	background: url(../images/nav_icon1.png) no-repeat left;
+}
+
+.yy-ad .aside  #m_name2{
+	background: url(../images/nav_icon2.png) no-repeat left;
+}
+.yy-ad .aside  #m_name3{
+	background: url(../images/nav_icon3.png) no-repeat left;
+}
+
+.yy-ad .aside  #m_name4{
+	background: url(../images/nav_icon4.png) no-repeat left;
+}
+.yy-ad .aside  #m_name5{
+	background: url(../images/nav_icon5.png) no-repeat left;
+}
+
+.yy-ad .aside  #m_name6{
+	background: url(../images/nav_icon6.png) no-repeat left;
+}
+.yy-ad .aside  #m_name7{
+	background: url(../images/nav_icon7.png) no-repeat left;
+}
+.yy-ad .aside .menu_list:hover,.yy-ad .aside .menu_list:hover a,.aside .menu_list:hover h3{
+	background-color: #fff;
+	color: green;
+}
+.aside .menu_list:hover #m_name1{
+	background:#fff url(../images/main-icon1.png) no-repeat left;
+}
+.aside .menu_list:hover #m_name2{
+	background:#fff url(../images/main-icon2.png) no-repeat left;
+}
+.aside .menu_list:hover #m_name3{
+	background:#fff url(../images/main-icon3.png) no-repeat left;
+}
+.aside .menu_list:hover #m_name4{
+	background:#fff url(../images/main-icon4.png) no-repeat left;
+}
+.aside .menu_list:hover #m_name5{
+	background:#fff url(../images/main-icon5.png) no-repeat left;
+}
+.aside .menu_list:hover #m_name6{
+	background:#fff url(../images/main-icon6.png) no-repeat left;
+}
+.aside .menu_list:hover #m_name7{
+	background:#fff url(../images/main-icon7.png) no-repeat left;
+}
+
+
+/* url(../images/bg.jpg) no-repeat center*/
+
+#ad_banner{
+	height: 500px;
+	width: 660px;
+	background:url(../images/bg.jpg) no-repeat center;
+	/*margin: 0 auto;*/
+	margin-left:200px;
+	position: relative;
+
+}
+
+#ad_banner .radi{
+	display: inline-block;
+	width: 14px;
+	height:14px;
+	border:3px solid #b2a23b;
+	background-color: #b2a23b;
+	border-radius: 20px;	
+	/*margin: 0 auto;*/
+}
+
+#ad_banner #rb{
+	display: inline-block;
+	width: 120px;
+	height: 25px;
+	position: absolute;
+	left:50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+#rb .rb_selected,#rb .radi:hover{
+	background-color: #ffee86;
+}
+/*右边广告新闻*/
+.notice  h3{
+	height: 40px;
+	width: 160px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding-top: 8px;
+	color: #656565;
+	font-size: 14px;
+	border-bottom: 1px dashed #939393;
+	margin-bottom: 10px;
+}
+.notice h3 a{
+	display: inline-block; 
+	width: 50px;
+	height: 25px;
+	line-height:25px;
+	text-align: center;
+	margin-left:50px;
+	font-size: 12px; 
+}
+.notice h3 a:hover{
+	background-color: #d1d1d1;	
+	color: #505050;
+}
+
+.notice .info{
+	width: 160px;
+	margin: 0 auto;
+	line-height: 1.5em;
+}
+
+.notice .info ul{
+	list-style:square;
+	margin-left: 13px;
+}
+
+.notice .info ul li{
+	margin-bottom: 10px;
+}
+
+/*早市特卖*/
+.yy-spec hgroup{
+	height: 59px;
+	background: #308e00;
+	position: relative;
+}
+.yy-spec .header1 .header_l{
+	display: inline-block;
+	height: 59px;
+	width: 530px;
+	font-size: 14px;
+	float: left;
+	color: #fff;
+}
+
+
+.yy-spec .header1 .header_l .l_group{
+	display: inline-block;
+	text-indent: 20px;
+	font-size: 20px;
+	padding-top:6px; 
+}
+.yy-spec .header1 .header_l .l_group p{
+	font-size: 16px;
+}
+
+.yy-spec .header1 .header_l .countdown{
+	display: inline-block;
+	line-height: 59px;
+	padding-right: 10px;
+	float: right;
+	letter-spacing: 1px;
+}
+ .header_l .countdown .time_d{
+ 	display: inline-block;
+ 	color:#308e00;
+ 	font-size: 28px;
+ 	width: 40px;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	border-radius:20px;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	background: #fff;
+ 	margin: 0 5px;
+ }
+
+.yy-spec .header1 .header_r{
+	height: 59px;
+	width: 530px;
+	color: #6e6e6e;
+	font-size: 20px;
+	line-height: 1.5em;
+	text-align: center;
+	display: inline-block;
+	background: #d1d1d1;
+}
+.yy-spec .header1 .header_r p{
+	font-size: 16px;
+}
+
+.yy-spec figure{
+	width: 210px;
+	height: 180px;
+	text-align: center;
+	position: relative;
+}
+.yy-spec figure img{
+	position: absolute;
+	top:50%;
+	left:10px;
+	transform: translate(5%,-35%);
+}
+.yy-spec .item .price{
+	width: 180px;
+	margin: 0 auto;
+}
+.yy-spec .item .price p{
+	font-weight:bold;
+	padding-bottom: 10px;
+}
+.yy-spec .item .price p:nth-child(2){
+	color: #999;
+	font-weight:normal;
+	text-align: left;
+}
+.yy-spec .item .price p:nth-child(3){
+	color: #a8a8a8;
+	font-size:14px; 
+}
+.yy-spec .item .price strong{
+	color: #ed0300;
+	font-weight: bold;
+}
+.yy-spec .item .price p:nth-child(3) strong{
+
+	padding-right: 10px;
+}
+.yy-spec .item  .price em{
+	text-decoration: line-through;
+}
+.yy-spec button:hover{
+	color:#e5e5e5;
+	background-color: #ff5151;
+}
+.yy-spec .item:hover{
+	border-color: #ff5151;
+} 
+
+.seckill header{
+	color: #5b605e;
+}
+.seckill header h3{
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	padding-top: 10px; 
+	padding-right: 25px;
+	font-size: 20px;
+	color:#1f1f1f;
+}
+
+.seckill header span{
+	background:url(../images/star1.png) no-repeat left;
+	padding-left: 12px;
+}
+
+.seckill .figure {
+	width: 250px;
+	height: 182px;
+	background:#fff;
+	margin-bottom: 22px;
+}
+
+.seckill .item .price{
+	width: 200px;
+	margin: 0 auto;
+	color: #906a1c;
+}
+.seckill .item .price p{
+	line-height:1.8em;
+}
+.seckill .item .price p:nth-child(3){
+	font-size: 14px;
+	font-weight: bold;
+	color: #4b4b4b;
+	margin-bottom: 5px;
+}
+.seckill .item .price p:nth-child(3) strong{
+	color: #ff6012;
+}
+.seckill .item .price > strong{
+	color: #ff0000;
+	font-size: 24px;
+}
+.seckill .item button{
+	height: 28px;
+	width: 88px;
+	color: #fff;
+	border:1px solid #ffffff;
+	background-color: #ff9834;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.seckill .item button:hover{
+	background-color:#ff4f12;
+}
+.seckill .item:hover{
+	box-shadow: 0 0 0 1px red;
+}
+
+
+

@@ -1,0 +1,354 @@
+@charset "utf-8";
+/*主要是后面七大展示版块的通用样式*/
+
+
+.item_wrapper{
+	width: 1060px;
+	height: 480px;
+	margin: 0 auto;	
+	margin-bottom:40px;
+}
+
+.item_wrapper header{
+	color: #5b605e;
+	width: 1060px;
+	border-bottom: 2px solid #fe7347; 
+}
+
+.item_wrapper header h3{
+	height: 38px;
+	line-height: 38px;
+	color:#1f1f1f;
+	font-size: 20px;
+	display: inline-block;
+	text-indent: 30px;
+}
+.item_wrapper header span{
+	display: inline-block;
+	text-indent: 12px;
+	background:url(../images/star1.png) no-repeat left;
+	margin-left: 10px;
+}
+
+.item_wrapper header ul{
+	display: inline-block;
+	float: right;
+	font-size: 0;
+	
+}
+.item_wrapper header ul li{
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	display: inline-block;
+	padding-left: 30px; 
+}
+
+.item_wrapper .table{
+	display: table;
+	width: 799px;
+	height: 449px;
+	/*border-collapse: collapse;*/
+	float: left;
+}
+
+.table .table_tr{
+	display: table-row;
+	height: 50%;
+}
+
+.table_td{
+	display: table-cell;
+	height: 50%;
+	/*border: 1px solid #d1d1d1;	*/
+	border-top: none;
+	vertical-align: middle;
+	background-color: #fff;
+}
+.table .tr1 .table_td:first-child{
+	/*border-left: none;*/
+}
+
+.sub_table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.sub_table_td{
+	display: table-cell;
+	height: 100%;
+	/*width: 100%;*/
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.sub_table_tr{
+	display: table-row;
+	height: 100%;
+}
+
+.table_bg{
+	width: 50%;
+	color: #828282;
+	line-height: 30px;
+	/*background: url(../images/fruit-1.jpg) no-repeat center;*/
+	
+	text-align: left;
+	text-indent: 25px;
+	vertical-align: top;
+}
+
+
+/*以下为细节部分*/
+.item_left{
+	width: 260px;
+	height: 449px;
+	float: left;
+	position: relative;
+}
+
+.item_left button{
+	width: 120px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #fff;
+	border-radius: 20px;
+	position: absolute;
+	bottom:20px;
+	left:30px;
+}
+
+.item_wrapper strong{
+	color: #ff0000;
+	font-weight: bold;
+}
+
+
+.f_name{
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 35px;
+}
+
+.table_bg p:last-child{
+	font-size: 18px;
+}
+.table figcaption{
+	width: 170px;
+	margin: 0 auto;
+	color:#c7c7c7;
+	line-height: 20px;
+}
+
+.table figcaption p:first-child{
+	color:#696969;
+	font-weight: bold;
+	
+}
+.table figcaption p:last-child{
+	font-size: 16px;
+	padding-top: 4px;
+}
+.table figcaption del{
+	display: inline-block;
+	text-indent: 70px;
+	color:#9a9a9a;
+	font-size: 12px;
+}
+
+.table_td:hover{
+	/*box-shadow:0px 0px 5px red inset;*/
+	/*border-color: #fff;*/
+}
+
+.table img{
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 2px;
+}
+
+
+.hover{
+	border:1px solid  #d1d1d1;
+	height: 100%;
+	/*border-top: none;*/
+}
+
+.hover:hover{
+	border-color: red;
+}
+
+
+
+/*各类展示区域的 区别样式部分*/
+.fruit header{
+	border-bottom: 2px solid #fe7347; 
+}
+
+.fruit .item_left button{
+	color:#eb565c;
+}
+.fruit  .item_left button:hover{
+	color: #fff;
+	background-color:#eb565c;
+}
+
+.fruit .table_bg{
+	background: url(../images/fruit-1.jpg) no-repeat center;
+}
+
+.fruit  .f_name{
+	color: #7d3a3a;
+}
+
+.fruit header h3{
+	background: url(../images/main-icon1.png) no-repeat left;
+}
+
+/*蔬菜*/
+
+.vegetables  header{
+	border-bottom: 2px solid #8fc28c; 
+}
+.vegetables button{
+	color:#7e5497;
+}
+
+.vegetables button:hover{
+	color: #fff;
+	background-color:#7e5497;
+}
+
+.vegetables	.table_bg{
+	background: url(../images/vegetables-1.jpg) no-repeat center;
+}
+.vegetables	.f_name{
+		color: #8a5300;
+}
+
+.vegetables header h3{
+	background: url(../images/main-icon2.png) no-repeat left;
+}
+
+
+
+
+
+
+/*鲜肉禽蛋*/
+.meat  header{
+	border-bottom: 2px solid #f46eb3; 
+}
+
+ .meat .item_left button{
+	color:#ea3141;
+}
+.meat	.item_left button:hover{
+	color: #fff;
+	background-color:#ea3141;
+}
+
+.meat	.table_bg{
+	background: url(../images/eggs-1.jpg) no-repeat center;
+}
+.meat .f_name{
+	color: #ef7429;
+}
+.meat	header h3{
+	background: url(../images/main-icon3.png) no-repeat left;
+}
+
+/*海鲜*/
+.seafood header{
+	border-bottom: 2px solid #3f9ff1; 
+}
+/*上线*/
+.seafood  .item_left button{
+	color:#0087ff;
+}
+.seafood .item_left button:hover{
+	color: #fff;
+	background-color:#0087ff;
+}
+
+ .seafood .table_bg{
+	background: url(../images/seafood-1.png) no-repeat center;
+}
+.seafood .f_name{
+	color: #12a0b3;
+}
+.seafood header h3{
+	background: url(../images/main-icon4.png) no-repeat left;
+}
+
+
+
+
+/*速冻*/
+.frozen header{
+	border-bottom: 2px solid #ffb52f; 
+}
+.frozen  .item_left button{
+	color:#eb565c;
+}
+.frozen	.item_left button:hover{
+	color: #fff;
+	background-color:#eb565c;
+}
+
+.frozen	.table_bg{
+	background: url(../images/dumplings-1.jpg) no-repeat center;
+}
+.frozen	.f_name{
+	color: #f28a58;
+}
+.frozen	header h3{
+	background: url(../images/main-icon5.png) no-repeat left;
+}
+
+/*饮料*/
+.drinks header{
+	border-bottom: 2px solid #ffd218; 
+}
+.drinks  .item_left button{
+	color:#fcb3b7;
+}
+.drinks	.item_left button:hover{
+	color: #fff;
+	background-color:#fcb3b7;
+}
+
+.drinks	.table_bg{
+	background: url(../images/ice-cream-1.jpg) no-repeat center;
+}
+.drinks	.f_name{
+	color: #8e8e8e;
+}
+.drinks	header h3{
+	background: url(../images/main-icon6.png) no-repeat left;
+}
+/*粮油*/
+.grain header{
+	border-bottom: 2px solid #a6d000; 
+}
+.grain  .item_left button{
+	color:#99b800;
+}
+.grain .item_left button:hover{
+	color: #fff;
+	background-color:#99b800;
+}
+
+.grain	.table_bg{
+	background: url(../images/cereals-1.jpg) no-repeat center;
+}
+.grain .f_name{
+	color: #e3612a;
+}
+.grain	header h3{
+	background: url(../images/main-icon7.png) no-repeat left;
+}
+
+

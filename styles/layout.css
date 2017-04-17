@@ -1,0 +1,153 @@
+@charset "utf-8";
+/*架构样式表*/
+.wrapper{
+	width: 1060px;
+	margin: 0 auto;
+}
+
+/*头部区域*/
+.yy_t_h{
+	height:130px;
+	position: relative;
+}
+
+/*页面头部导航区域*/
+.mainnav{
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	color: #828282;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 2px solid #308e00;
+}
+
+
+
+/*广告区域*/
+.yy-ad{
+	width: 100%;
+	height: 500px;
+	background:#fee851;
+	margin-bottom: 20px;
+}
+
+.yy-ad .wrapper{
+	height: 500px;
+	position: relative;
+}
+/*表格布局实现侧边栏*/
+.yy-ad .aside{
+	width: 200px;
+	height: 500px;
+	background: #3a3a29;
+	position: relative;
+	float: left;
+}
+.yy-ad .aside .menu_list{
+ 	display: table;
+ 	height: 30px;
+ 	width: 100%;
+ 	color: #919493;
+ 	margin:0 auto;
+ 	border-bottom: 1px dashed #5c5b52;
+ 	text-indent: 5px;
+ }
+
+ /*右边新闻公告部分 start*/
+.yy-ad .notice{
+	width: 200px;
+	height: 480px;
+	color: #939393;
+	background: #fff;
+	position: absolute;
+	top: 10px;
+	right: 0;
+
+}
+
+/*早市特卖 start*/
+.yy-spec{
+	height: 410px;
+	color: #a8a8a8;
+	margin-bottom: 20px;
+}
+
+/*早市产品展示*/
+.yy-spec .item{
+	width: 210px;
+	height: 349px;
+	text-align:left;
+	border:1px solid #d1d1d1;
+	float: left;
+	position: relative;
+}
+
+/*早市button*/
+.yy-spec button{
+	width: 88px;
+	height: 28px;
+	border:1px solid #dadada;
+	background-color: #fff;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+/*秒杀专区 start*/
+
+.seckill{
+	width: 100%;
+	height: 432px;
+	background-color: #ffef9f;
+	margin-bottom: 20px;
+}
+
+/*秒杀区产品展示*/
+.seckill .item{
+	width: 250px;
+	height: 364px;
+	float: left;
+	margin-right: 20px;
+	background-color: #ffce5d;
+	position: relative;
+}
+.seckill .item:last-child{
+	margin-right: 0;
+}
+/*width: 210px;
+	height: 349px;
+	text-align:left;
+	border:1px solid #d1d1d1;
+	float: left;
+	position: relative;
+}
+
+*/
+
+/*暂无商品*/
+/*暂无商品的*/
+.none{
+	position: absolute;
+	top: 0;
+	z-index:2;
+}
+.yy-spec .none{
+	width: 210px;
+	height: 349px;
+	background: rgba(0,0,0,.6) url(../images/zs-no2.png) no-repeat center;
+	/*background: rgba(0,0,0,.6) url(../images/zs-no1.png) no-repeat center;*/
+}
+.seckill .none{
+	width: 250px;
+	height: 364px;
+	/*background: rgba(0,0,0,.6) url(../images/ms-no2.png) no-repeat center;*/
+	background: rgba(0,0,0,.6) url(../images/ms-no1.png) no-repeat center;	
+}
+
+/*广告条*/
+.banner{
+	margin-bottom: 20px;
+}
